@@ -1,7 +1,7 @@
-DROP TABLE IF EXISTS `user` ;
+DROP TABLE IF EXISTS `userDTO` ;
 
 
-CREATE TABLE `user` (
+CREATE TABLE `userDTO` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `name` varchar(30) NOT NULL COMMENT '姓名',
   `age` int(5) DEFAULT NULL COMMENT '年龄',

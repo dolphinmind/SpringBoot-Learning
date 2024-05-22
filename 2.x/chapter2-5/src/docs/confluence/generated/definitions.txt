@@ -1,7 +1,7 @@
 
 h2. Definitions {anchor:definitions}
 
-h3. User {anchor:user}
+h3. User {anchor:userDTO}
 用户实体
 
 

@@ -14,7 +14,7 @@ h4. Description
 h4. Parameters
 
 ||Type||Name||Description||Schema||
-|*Body*|*user*\\ \\ _required_||user||[User|#user]|
+|*Body*|*userDTO*\\ \\ _required_||userDTO||[User|#userDTO]|
 
 
 h4. Responses
@@ -57,7 +57,7 @@ GET /users/
 h4. Responses
 
 ||HTTP Code||Description||Schema||
-|*200*||OK||< [User|#user] > array|
+|*200*||OK||< [User|#userDTO] > array|
 |*401*||Unauthorized||No Content|
 |*403*||Forbidden||No Content|
 |*404*||Not Found||No Content|
@@ -98,7 +98,7 @@ h4. Parameters
 h4. Responses
 
 ||HTTP Code||Description||Schema||
-|*200*||OK||[User|#user]|
+|*200*||OK||[User|#userDTO]|
 |*401*||Unauthorized||No Content|
 |*403*||Forbidden||No Content|
 |*404*||Not Found||No Content|
@@ -134,7 +134,7 @@ h4. Parameters
 
 ||Type||Name||Description||Schema||
 |*Path*|*id*\\ \\ _required_||用户编号||integer (int64)|
-|*Body*|*user*\\ \\ _required_||user||[User|#user]|
+|*Body*|*userDTO*\\ \\ _required_||userDTO||[User|#userDTO]|
 
 
 h4. Responses

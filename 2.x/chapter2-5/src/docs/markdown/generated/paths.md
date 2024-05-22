@@ -17,7 +17,7 @@ POST /users/
 
 |Type|Name|Description|Schema|
 |---|---|---|---|
-|**Body**|**user**  <br>*required*|user|[User](#user)|
+|**Body**|**userDTO**  <br>*required*|userDTO|[User](#userDTO)|
 
 
 #### Responses
@@ -64,7 +64,7 @@ GET /users/
 
 |HTTP Code|Description|Schema|
 |---|---|---|
-|**200**|OK|< [User](#user) > array|
+|**200**|OK|< [User](#userDTO) > array|
 |**401**|Unauthorized|No Content|
 |**403**|Forbidden|No Content|
 |**404**|Not Found|No Content|
@@ -109,7 +109,7 @@ GET /users/{id}
 
 |HTTP Code|Description|Schema|
 |---|---|---|
-|**200**|OK|[User](#user)|
+|**200**|OK|[User](#userDTO)|
 |**401**|Unauthorized|No Content|
 |**403**|Forbidden|No Content|
 |**404**|Not Found|No Content|
@@ -148,7 +148,7 @@ PUT /users/{id}
 |Type|Name|Description|Schema|
 |---|---|---|---|
 |**Path**|**id**  <br>*required*|用户编号|integer (int64)|
-|**Body**|**user**  <br>*required*|user|[User](#user)|
+|**Body**|**userDTO**  <br>*required*|userDTO|[User](#userDTO)|
 
 
 #### Responses

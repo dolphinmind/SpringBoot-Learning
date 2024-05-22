@@ -1,5 +1,6 @@
 package com.didispace.chapter21;
 
+import com.didispace.chapter21.controller.UserController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

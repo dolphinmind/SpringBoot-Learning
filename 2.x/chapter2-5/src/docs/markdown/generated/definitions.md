@@ -2,7 +2,7 @@
 <a name="definitions"></a>
 ## Definitions
 
-<a name="user"></a>
+<a name="userDTO"></a>
 ### User
 用户实体
 
